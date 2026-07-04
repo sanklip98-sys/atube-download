@@ -1,7 +1,7 @@
 {
-  "version": "1.3.30",
-  "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.30/atube-Setup.exe",
-  "sha256": "89F35590BBF022ECE4F85B07F337BE2CE3BEE9474409B9FB603166EB4D56215A",
-  "notes": "Dodano opcjonalne oznajmianie czasu trwania filmu na liscie wynikow.",
-  "publishedAt": "2026-07-04T14:17:37.1041637Z"
+  "version": "1.3.31",
+  "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.31/atube-Setup.exe",
+  "sha256": "2F35733D24C423681E5B8C35B2C28173A2474B46976CD6C7B8CC0DCA3DB77478",
+  "notes": "Poprawiono polskie znaki w ustawieniu numerowania listy wyników.",
+  "publishedAt": "2026-07-04T21:56:08.4033584Z"
 }
