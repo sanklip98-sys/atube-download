@@ -1,7 +1,7 @@
 {
-  "version": "1.3.29",
-  "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.29/atube-Setup.exe",
-  "sha256": "A2AF8BC228E677F061CDC78C372C64B88472F27047845EF6D4D5FFD3BD5196BD",
-  "notes": "Usunieto stale oznaczenie Film i dodano ustawienia oznajmiania rodzaju wynikow dla filtra Wszystko oraz konkretnych filtrow.",
-  "publishedAt": "2026-07-04T02:23:48.7826213Z"
+  "version": "1.3.30",
+  "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.30/atube-Setup.exe",
+  "sha256": "89F35590BBF022ECE4F85B07F337BE2CE3BEE9474409B9FB603166EB4D56215A",
+  "notes": "Dodano opcjonalne oznajmianie czasu trwania filmu na liscie wynikow.",
+  "publishedAt": "2026-07-04T14:17:37.1041637Z"
 }
