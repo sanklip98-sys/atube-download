@@ -1,7 +1,7 @@
 {
-  "version": "1.3.28",
-  "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.28/atube-Setup.exe",
-  "sha256": "A358C6D3ACE1DBD6F85BD689B15EF8C7AD5614BFB4785D2D8997573E020C2EC4",
-  "notes": "Poprawiono podwojne odczytywanie tytulow wynikow przez NVDA.",
-  "publishedAt": "2026-07-04T01:29:32.6940686Z"
+  "version": "1.3.29",
+  "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.29/atube-Setup.exe",
+  "sha256": "A2AF8BC228E677F061CDC78C372C64B88472F27047845EF6D4D5FFD3BD5196BD",
+  "notes": "Usunieto stale oznaczenie Film i dodano ustawienia oznajmiania rodzaju wynikow dla filtra Wszystko oraz konkretnych filtrow.",
+  "publishedAt": "2026-07-04T02:23:48.7826213Z"
 }
