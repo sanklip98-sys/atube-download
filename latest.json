@@ -1,7 +1,7 @@
 {
-  "version": "1.3.31",
-  "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.31/atube-Setup.exe",
-  "sha256": "2F35733D24C423681E5B8C35B2C28173A2474B46976CD6C7B8CC0DCA3DB77478",
-  "notes": "Poprawiono polskie znaki w ustawieniu numerowania listy wyników.",
-  "publishedAt": "2026-07-04T21:56:08.4033584Z"
+    "version":  "1.3.40",
+    "installerUrl":  "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.40/atube-Setup.exe",
+    "sha256":  "2CB0EBBF1C96CE48C80988E49C4C861781496A335DF2E2DBFC66F38267E00D8A",
+    "notes":  "Poprawiono powiązane treści, odtwarzanie niedostępnych filmów i fallback wyszukiwania.",
+    "publishedAt":  "2026-07-08T03:28:11.3188761Z"
 }
