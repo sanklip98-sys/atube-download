@@ -1,7 +1,7 @@
 {
-    "version":  "1.3.40",
-    "installerUrl":  "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.40/atube-Setup.exe",
-    "sha256":  "2CB0EBBF1C96CE48C80988E49C4C861781496A335DF2E2DBFC66F38267E00D8A",
-    "notes":  "Poprawiono powiązane treści, odtwarzanie niedostępnych filmów i fallback wyszukiwania.",
-    "publishedAt":  "2026-07-08T03:28:11.3188761Z"
+    "version":  "1.3.41",
+    "installerUrl":  "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.41/atube-Setup.exe",
+    "sha256":  "6022E7BF692E23837AF983D00990C8C644F7ABFB1953262760C3D565B0F14194",
+    "notes":  "Poprawiono oznajmianie czasu przy przewijaniu i lagodniejsze wykrywanie startu odtwarzania.",
+    "publishedAt":  "2026-07-08T03:58:55.4315951Z"
 }
