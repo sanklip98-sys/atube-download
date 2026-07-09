@@ -1,7 +1,7 @@
 {
-  "version": "1.3.49",
-  "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.49/atube-Setup.exe",
-  "sha256": "9E87B79783ACE853A6E0EC7BCFA206B2F227EE76B8002DA3E38C583A16E479E5",
-  "notes": "Poprawiono zamykanie okna opisów scen: przycisk Zamknij działa bezpośrednio, a w ustawieniach audiodeskrypcji można wybrać Escape, Alt+F4 albo oba skróty.",
-  "publishedAt": "2026-07-09T02:05:56.6545155Z"
+    "version":  "1.3.49",
+    "installerUrl":  "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.49/atube-Setup.exe",
+    "sha256":  "9E87B79783ACE853A6E0EC7BCFA206B2F227EE76B8002DA3E38C583A16E479E5",
+    "notes":  "Poprawiono zamykanie okna opisów scen: przycisk Zamknij działa bezpośrednio, a w ustawieniach audiodeskrypcji można wybrać Escape, Alt+F4 albo oba skróty.",
+    "publishedAt":  "2026-07-09T02:05:56.6545155Z"
 }
