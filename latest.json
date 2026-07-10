@@ -1,7 +1,7 @@
 {
-    "version":  "1.3.50",
-    "installerUrl":  "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.50/atube-Setup.exe",
-    "sha256":  "20DDC78267333EE40350BD252D75757A50B1842529DACCDD26395D3E734599E2",
-    "notes":  "Poprawiono zamykanie okna opisow scen i odpornosc aktualizatora na manifest JSON ze znakiem BOM.",
-    "publishedAt":  "2026-07-09T02:12:42.8444114Z"
+    "version":  "1.3.56",
+    "installerUrl":  "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.56/atube-Setup.exe",
+    "sha256":  "5AABB048B24740B9F023ADB45E9F7AEECE99B1CE88264985073339604619488F",
+    "notes":  "Naprawiono blokujące okno błędu przy automatycznej próbie odtworzenia niedostępnego filmu.",
+    "publishedAt":  "2026-07-09T22:24:15.2190962Z"
 }
