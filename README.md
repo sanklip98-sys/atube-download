@@ -20,6 +20,7 @@ Installer SHA256:
 
 ## Release Notes
 
+- Added MP4 and MP3 downloads with a configurable default download folder.
 - Added local channel subscriptions and browsing subscribed channels.
 - Added accessible notifications for new videos, an unread-video list, and a configurable check interval.
 - Added synchronized SRT and readable TXT audio-description files for downloaded videos.
