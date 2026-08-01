@@ -12,8 +12,14 @@ https://github.com/sanklip98-sys/atube-download/releases/latest
 
 ## Current Version
 
-Version: 1.3.31
+Version: 1.3.68
 
 Installer SHA256:
 
-`2F35733D24C423681E5B8C35B2C28173A2474B46976CD6C7B8CC0DCA3DB77478`
+`6E203036C6265F9E3D0BB5FF9E20CB8DFD41FCA398BA9EA2AFABBE131573E7FE`
+
+## Release Notes
+
+- Added local channel subscriptions and browsing subscribed channels.
+- Added accessible notifications for new videos, an unread-video list, and a configurable check interval.
+- Added synchronized SRT and readable TXT audio-description files for downloaded videos.

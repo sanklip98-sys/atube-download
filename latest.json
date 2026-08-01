@@ -1,7 +1,7 @@
 {
-    "version":  "1.3.56",
-    "installerUrl":  "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.56/atube-Setup.exe",
-    "sha256":  "5AABB048B24740B9F023ADB45E9F7AEECE99B1CE88264985073339604619488F",
-    "notes":  "Naprawiono blokujące okno błędu przy automatycznej próbie odtworzenia niedostępnego filmu.",
-    "publishedAt":  "2026-07-09T22:24:15.2190962Z"
+    "version":  "1.3.68",
+    "installerUrl":  "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.68/atube-Setup.exe",
+    "sha256":  "6E203036C6265F9E3D0BB5FF9E20CB8DFD41FCA398BA9EA2AFABBE131573E7FE",
+    "notes":  "Dodano lokalne subskrypcje kanałów, dostępne powiadomienia o nowych filmach, listę nieprzeczytanych materiałów oraz ustawienie częstotliwości sprawdzania.",
+    "publishedAt":  "2026-08-01T18:07:43.0976532Z"
 }
