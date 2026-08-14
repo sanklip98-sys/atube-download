@@ -12,15 +12,17 @@ https://github.com/sanklip98-sys/atube-download/releases/latest
 
 ## Current Version
 
-Version: 1.3.68
+Version: 1.3.83
 
 Installer SHA256:
 
-`6E203036C6265F9E3D0BB5FF9E20CB8DFD41FCA398BA9EA2AFABBE131573E7FE`
+`2CE170082E2252785FDD27D00802F114053E8473AA3994BCE163BB98AB824703`
 
 ## Release Notes
 
-- Added MP4 and MP3 downloads with a configurable default download folder.
-- Added local channel subscriptions and browsing subscribed channels.
-- Added accessible notifications for new videos, an unread-video list, and a configurable check interval.
-- Added synchronized SRT and readable TXT audio-description files for downloaded videos.
+- Added a keyboard-accessible manager for playlists belonging to the connected YouTube account, including copying, moving, and removing videos.
+- Added simple account connection through a dedicated local Chrome or Edge profile. Atube never stores the Google password and does not require Google Cloud or OAuth configuration.
+- Made session detection resilient to delayed browser-profile writes after closing the sign-in window.
+- Added quiet search-field focus and typing sounds with four configurable volume levels.
+- Improved the accessible download announcements, progress feedback, and start/end sounds.
+- Added standard `Tab` navigation in the exit confirmation and restored the YouTube Mix list on the first `Escape`.
