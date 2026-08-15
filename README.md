@@ -12,17 +12,15 @@ https://github.com/sanklip98-sys/atube-download/releases/latest
 
 ## Current Version
 
-Version: 1.3.83
+Version: 1.3.93
 
 Installer SHA256:
 
-`2CE170082E2252785FDD27D00802F114053E8473AA3994BCE163BB98AB824703`
+`048902F7AC34B480676C2D62EA22C59247A7F10C9BA861D63DAF89DEC7E43553`
 
 ## Release Notes
 
-- Added a keyboard-accessible manager for playlists belonging to the connected YouTube account, including copying, moving, and removing videos.
-- Added simple account connection through a dedicated local Chrome or Edge profile. Atube never stores the Google password and does not require Google Cloud or OAuth configuration.
-- Made session detection resilient to delayed browser-profile writes after closing the sign-in window.
-- Added quiet search-field focus and typing sounds with four configurable volume levels.
-- Improved the accessible download announcements, progress feedback, and start/end sounds.
-- Added standard `Tab` navigation in the exit confirmation and restored the YouTube Mix list on the first `Escape`.
+- Added an optional screen-reader-friendly window title that places the current video title before the atube name.
+- Kept the window title stable between playback changes to avoid repeated, unsolicited NVDA announcements.
+- Improved autoplay responsiveness by preparing the embedded VLC player asynchronously and resolving the first stream in parallel.
+- Improved playback reliability by forwarding the HTTP headers required by YouTube streams and retrying failed videos with an alternate YouTube player client.
