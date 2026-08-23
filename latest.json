@@ -1,7 +1,7 @@
 {
-    "version":  "1.3.94",
-    "installerUrl":  "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.94/atube-Setup.exe",
-    "sha256":  "58BC0605B13377B0DEF715FC64097ADCF40634F6D07FE6C46C8243335AC60D2C",
-    "notes":  "Dodano dostępne dla NVDA sortowanie filmów po dacie od najnowszych do najstarszych i odwrotnie. Daty są pobierane w tle, filmy bez daty pozostają na końcu listy, a kanały i playlisty zachowują swoje pozycje.",
-    "publishedAt":  "2026-08-23T19:11:47.4753717Z"
+    "version":  "1.3.96",
+    "installerUrl":  "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.96/atube-Setup.exe",
+    "sha256":  "2763D50F89E98A12BCC5F762B96850B26C310C3BA9BF840ED8A9BE8B3031BB76",
+    "notes":  "Dodano mo\u017cliwo\u015b\u0107 wyboru miejsca instalacji. Instalator zapami\u0119tuje wybrany folder, a automatyczne aktualizacje zachowuj\u0105 niestandardow\u0105 lokalizacj\u0119. Backspace podczas przegl\u0105dania film\u00f3w kana\u0142u wraca do listy kana\u0142\u00f3w bez zatrzymywania odtwarzania.",
+    "publishedAt":  "2026-08-23T22:35:19.1223678Z"
 }
