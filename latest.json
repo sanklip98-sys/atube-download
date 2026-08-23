@@ -1,7 +1,7 @@
 {
-    "version":  "1.3.93",
-    "installerUrl":  "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.93/atube-Setup.exe",
-    "sha256":  "048902F7AC34B480676C2D62EA22C59247A7F10C9BA861D63DAF89DEC7E43553",
-    "notes":  "Dodano opcjonalny tytuł aktualnie odtwarzanego filmu przed nazwą atube dla czytników ekranu oraz poprawiono szybkość, responsywność i niezawodność uruchamiania filmów.",
-    "publishedAt":  "2026-08-15T21:43:23.0305625Z"
+    "version":  "1.3.94",
+    "installerUrl":  "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.94/atube-Setup.exe",
+    "sha256":  "58BC0605B13377B0DEF715FC64097ADCF40634F6D07FE6C46C8243335AC60D2C",
+    "notes":  "Dodano dostępne dla NVDA sortowanie filmów po dacie od najnowszych do najstarszych i odwrotnie. Daty są pobierane w tle, filmy bez daty pozostają na końcu listy, a kanały i playlisty zachowują swoje pozycje.",
+    "publishedAt":  "2026-08-23T19:11:47.4753717Z"
 }

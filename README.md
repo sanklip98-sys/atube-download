@@ -12,15 +12,15 @@ https://github.com/sanklip98-sys/atube-download/releases/latest
 
 ## Current Version
 
-Version: 1.3.93
+Version: 1.3.94
 
 Installer SHA256:
 
-`048902F7AC34B480676C2D62EA22C59247A7F10C9BA861D63DAF89DEC7E43553`
+`58BC0605B13377B0DEF715FC64097ADCF40634F6D07FE6C46C8243335AC60D2C`
 
 ## Release Notes
 
-- Added an optional screen-reader-friendly window title that places the current video title before the atube name.
-- Kept the window title stable between playback changes to avoid repeated, unsolicited NVDA announcements.
-- Improved autoplay responsiveness by preparing the embedded VLC player asynchronously and resolving the first stream in parallel.
-- Improved playback reliability by forwarding the HTTP headers required by YouTube streams and retrying failed videos with an alternate YouTube player client.
+- Added video sorting by publication date: newest first or oldest first.
+- Added an accessible native sorting control between the result filter and results list, with full Tab and Shift+Tab navigation for NVDA users.
+- Publication dates are loaded in the background in small batches so the main window remains responsive.
+- Channels and playlists retain their positions in mixed results, while videos without a known date remain available at the end of the list.
