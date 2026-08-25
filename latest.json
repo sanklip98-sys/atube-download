@@ -1,7 +1,7 @@
 {
-    "version":  "1.3.98",
-    "installerUrl":  "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.98/atube-Setup.exe",
-    "sha256":  "68F055A5333759F0F9C3388B74CF7DF3F2F91BC885C9B86F9C02121FA3FBA4E3",
-    "notes":  "Dodano dost\u0119pny formularz zg\u0142aszania b\u0142\u0119d\u00f3w bez konta GitHub i programu pocztowego. Zg\u0142oszenie nie zawiera log\u00f3w, cookies, \u015bcie\u017cek plik\u00f3w, danych konta ani kluczy API. Dodano ochron\u0119 przed spamem i naprawiono zachowywanie importowanych oraz lokalnych subskrypcji kana\u0142\u00f3w po ponownym uruchomieniu programu.",
-    "publishedAt":  "2026-08-25T00:29:49.9336993Z"
+  "version": "1.3.99",
+  "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.3.99/atube-Setup.exe",
+  "sha256": "27B733E18082EAC387E08E4A132FDAE394088AD2A023BCA78896F2A5D7C5E0FD",
+  "notes": "Dodano opcjonalne czytanie zsynchronizowanych napisów przez NVDA, JAWS, Narratora i inne czytniki ekranu. Napisy autora mogą korzystać z automatycznych napisów YouTube jako wariantu zapasowego. Dodano dostępne okno historii napisów pod skrótem Ctrl+Shift+W. Czytanie napisów i automatyczna audiodeskrypcja wzajemnie się wykluczają.",
+  "publishedAt": "2026-08-25T14:45:12.5779769Z"
 }
