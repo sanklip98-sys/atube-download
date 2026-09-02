@@ -1,7 +1,7 @@
 {
   "version": "1.4.0",
   "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.0/atube-Setup.exe",
-  "sha256": "D7608F6CE59313B6DCDBF938BA0711ED501BD5B04A8A0B9961F964139C71BB68",
-  "notes": "Dodano dostępny menedżer pobierania pod Ctrl+P z kolejką filmów MP4 i plików MP3 oraz wspólnym oknem postępu, stanu i anulowania dla czytników ekranu. Zachowano pobieranie filmów ze zsynchronizowaną audiodeskrypcją SRT i TXT. Rozszerzono kroki przewijania od 10 sekund do 5 minut i scalanie szybkich poleceń, aby ograniczyć buforowanie. Listy YouTube pobierają tytuły zgodne z językiem interfejsu Atube, w tym polskie tytuły kanałów, gdy udostępnia je YouTube.",
-  "publishedAt": "2026-09-02T01:05:57.2926551Z"
+  "sha256": "4BA70A3B9B3B53A515AFD9D334AEA801F7E2476B712811065D588971C64F7D66",
+  "notes": "Usprawniono przewijanie: pierwszy skrót Ctrl ze strzałką reaguje natychmiast, a kolejne szybkie naciśnięcia są scalane w jeden skok końcowy, co ogranicza buforowanie VLC bez opóźniania klawiatury.",
+  "publishedAt": "2026-09-02T01:54:45.8099417Z"
 }
