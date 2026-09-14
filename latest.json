@@ -1,7 +1,7 @@
 {
   "version": "1.4.0",
   "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.0/atube-Setup.exe",
-  "sha256": "4BA70A3B9B3B53A515AFD9D334AEA801F7E2476B712811065D588971C64F7D66",
-  "notes": "Usprawniono przewijanie: pierwszy skrót Ctrl ze strzałką reaguje natychmiast, a kolejne szybkie naciśnięcia są scalane w jeden skok końcowy, co ogranicza buforowanie VLC bez opóźniania klawiatury.",
-  "publishedAt": "2026-09-02T01:54:45.8099417Z"
+  "sha256": "D44741BA90033AD96ADB7F8505117335A9966EF72E9C0622F1E2B15659C084F4",
+  "notes": "Dodano filtr Shorts pokazujący wyłącznie YouTube Shorts. Uproszczono odczyt pola filtra przez czytniki ekranu, a pełny opis filtrów przeniesiono do pomocy F1. Ten sam film z adresami /watch i /shorts nie jest duplikowany.",
+  "publishedAt": "2026-09-14T13:45:13.0889593Z"
 }
