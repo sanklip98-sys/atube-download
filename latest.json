@@ -1,7 +1,7 @@
 {
   "version": "1.4.0",
   "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.0/atube-Setup.exe",
-  "sha256": "D44741BA90033AD96ADB7F8505117335A9966EF72E9C0622F1E2B15659C084F4",
-  "notes": "Dodano filtr Shorts pokazujący wyłącznie YouTube Shorts. Uproszczono odczyt pola filtra przez czytniki ekranu, a pełny opis filtrów przeniesiono do pomocy F1. Ten sam film z adresami /watch i /shorts nie jest duplikowany.",
-  "publishedAt": "2026-09-14T13:45:13.0889593Z"
+  "sha256": "C9A98A94701B86F81B9E0E3519033999464C51BF395ACB1E1353B022A288E802",
+  "notes": "Audiodeskrypcja wstrzymuje film na czas odczytu opisu, aby nie nakładać się na dialog.",
+  "publishedAt": "2026-09-14T20:35:48.9071136Z"
 }

@@ -16,7 +16,7 @@ Version: 1.4.0
 
 Installer SHA256:
 
-`D44741BA90033AD96ADB7F8505117335A9966EF72E9C0622F1E2B15659C084F4`
+`C9A98A94701B86F81B9E0E3519033999464C51BF395ACB1E1353B022A288E802`
 
 ## Release Notes
 
@@ -28,3 +28,4 @@ Installer SHA256:
 - Added a `Shorts` result filter that shows only YouTube Shorts while preserving playback, downloads, subtitles, and audio description.
 - Simplified screen-reader output for the result filter: it now announces the current option without the redundant list of all available filters. Full filter descriptions are available under `F1`.
 - The same Short found through `/watch` and `/shorts` URLs is merged by its YouTube video ID instead of being shown twice.
+- Audio description now pauses playback silently while a screen reader reads each concise scene description, then resumes automatically so the description does not overlap dialogue. Manual pause changes, stopping playback, and switching videos take priority over automatic resume.
