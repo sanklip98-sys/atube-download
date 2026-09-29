@@ -1,7 +1,7 @@
 {
-  "version": "1.4.2",
-  "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.2/atube-Setup.exe",
-  "sha256": "62EBB5FBE303CF9CDBA23BD6A30EB858EB22231009D3C396B15C1681F74F3F3A",
-  "notes": "Link do filmu otwiera tylko wskazany film. Wydanie zawiera naprawe wykrywania Node.js/Deno oraz Azure OpenAI.",
-  "publishedAt": "2026-09-26T22:06:12.5069555Z"
+  "version": "1.4.3",
+  "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.3/atube-Setup.exe",
+  "sha256": "CF081AC1D323E373EC99496629DCCE2600E496B27ECB2C7B7CF84D4A331D8522",
+  "notes": "Filtr Na zywo, czat transmisji i komentarze filmow na polaczonym koncie YouTube.",
+  "publishedAt": "2026-09-29T17:52:25.466612Z"
 }
