@@ -1,7 +1,7 @@
 {
-  "version": "1.4.3",
-  "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.3/atube-Setup.exe",
-  "sha256": "CF081AC1D323E373EC99496629DCCE2600E496B27ECB2C7B7CF84D4A331D8522",
-  "notes": "Filtr Na zywo, czat transmisji i komentarze filmow na polaczonym koncie YouTube.",
-  "publishedAt": "2026-09-29T17:52:25.466612Z"
+  "version": "1.4.4",
+  "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.4/atube-Setup.exe",
+  "sha256": "6B0CCC5EBED968CD4381692C4DD3FD4113EAF0248409D77F8CEB60036C64118B",
+  "notes": "Wklejenie linku od razu odtwarza jeden film i oglasza jego tytul zamiast identyfikatora.",
+  "publishedAt": "2026-09-30T21:26:52.8879532Z"
 }
