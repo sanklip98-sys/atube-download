@@ -4,34 +4,36 @@ Public download repository for atube. Application source code and technical docu
 
 ## Download
 
-[Download atube 1.4.4 for Windows](https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.4/atube-Setup.exe)
+[Download atube 1.4.6 for Windows](https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.6/atube-Setup.exe)
 
 [Latest release](https://github.com/sanklip98-sys/atube-download/releases/latest)
 
 ## Current Version
 
-Version: 1.4.4
+Version: 1.4.6
 
-Installer: `atube-Setup.exe` (146356079 bytes)
+Installer: `atube-Setup.exe` (146374574 bytes)
 
 Installer SHA-256:
 
-`6B0CCC5EBED968CD4381692C4DD3FD4113EAF0248409D77F8CEB60036C64118B`
+`76E2030CF07AC288460DEB74B007B76841DE24A19BD96F6899D3FC87903AC6FD`
 
 ## Release Notes
 
-- Pasting a single YouTube video link with Ctrl+V, Shift+Insert or Paste starts that video immediately, even when ordinary-search Autoplay is disabled.
-- The result list and playback queue contain only the requested video, without additional search results.
-- The application announces “Playing: [title]” (Polish: “Odtwarzam: [tytuł]”) using the real video title instead of a video identifier. Opening/loading announcements are suppressed for direct links.
-- Focus moves to the player: Space pauses/resumes, Left/Right adjusts volume, Ctrl+Left/Right seeks and Up/Down selects a result.
-- Includes the Live filter, video comments, live chat, playlist/account support and previous fixes from 1.4.3.
+- Ctrl+U shares a video title and public link. WhatsApp and Telegram open their sharing flows; Messenger explicitly copies the message and opens the website so you can select a conversation and paste with Ctrl+V. Nothing is sent automatically.
+- The main Download video command has one accessible dialog: choose MP3/MP4 with arrows, Tab to audio description, then Tab to Download and confirm with Space or Enter.
+- Context menus offer separate Download MP3, Download MP4 and Download with audio description commands. Enter selects the mode directly without another format dialog. Existing save-location and AI-cost confirmations remain.
+- Download from link — no playback accepts up to 100 YouTube links, one per line. Download all processes the validated list sequentially. Canceling or failing a file stops remaining items.
+- Download commands inside the link editor affect only the captured caret row, never the whole list. Blank/invalid rows and multirow text selections disable these actions. Right-clicking within selected text preserves Cut/Copy.
+- Ordinary pasting into the main search field still plays the requested single video and announces its title.
+- Includes the live streams, comments, chat, account/playlist support and earlier improvements.
 
-Offline regression tests, real public title resolution and an MP4 download with audio/video passed. The new paste path has keyboard-preprocessing coverage; full system-clipboard E2E and a manual NVDA/JAWS listening test remain unverified. Actual signed-in comment/chat posting was not tested.
+Audio descriptions for downloads remain MP4 plus SRT/TXT files, not synthesized narration in MP3. Link cards and playback behavior on recipients' devices depend on their messaging service and YouTube.
 
-Node.js or Deno must still be installed for yt-dlp. Azure requires the user's own resource and may incur charges. The installer is not Authenticode-signed.
+Regression tests, keyboard/modal-dialog checks and a real MP4 download with audio/video passed. Actual messages to contacts, new paid AI-description calls and a manual NVDA/JAWS listening test were not performed. Node.js or Deno is required for yt-dlp. The installer is not Authenticode-signed.
 
 ## Publication Policy
 
-This public repository contains only `README.md` and `latest.json`. Releases provide only the installer; application source files, tests, build scripts, technical documentation, user settings and credentials are not uploaded here. The installer includes required third-party runtimes and resources.
+This public repository contains only `README.md` and `latest.json`. Releases provide only the installer. Application source files, tests, build scripts, technical documentation, user settings and credentials are not published here. Required third-party runtimes, resources and licenses are included in the installer.
 
-GitHub's automatically generated “Source code” archives contain only these public metadata files, not the application's source code. Executable binaries can still be analyzed or decompiled.
+GitHub's automatically generated “Source code” archives contain only the public metadata files, not the application's source code. Executable binaries can still be analyzed or decompiled.

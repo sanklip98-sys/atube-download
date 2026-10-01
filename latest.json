@@ -1,7 +1,7 @@
 {
-  "version": "1.4.4",
-  "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.4/atube-Setup.exe",
-  "sha256": "6B0CCC5EBED968CD4381692C4DD3FD4113EAF0248409D77F8CEB60036C64118B",
-  "notes": "Wklejenie linku od razu odtwarza jeden film i oglasza jego tytul zamiast identyfikatora.",
-  "publishedAt": "2026-09-30T21:26:52.8879532Z"
+  "version": "1.4.6",
+  "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.6/atube-Setup.exe",
+  "sha256": "76E2030CF07AC288460DEB74B007B76841DE24A19BD96F6899D3FC87903AC6FD",
+  "notes": "Udostepnianie Ctrl+U, wspolne opcje pobierania, listy linkow bez odtwarzania oraz kontekstowe MP3, MP4 i audiodeskrypcja.",
+  "publishedAt": "2026-10-01T20:45:37.5534214Z"
 }
