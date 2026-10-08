@@ -1,7 +1,7 @@
 {
-  "version": "1.4.6",
-  "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.6/atube-Setup.exe",
-  "sha256": "76E2030CF07AC288460DEB74B007B76841DE24A19BD96F6899D3FC87903AC6FD",
-  "notes": "Udostepnianie Ctrl+U, wspolne opcje pobierania, listy linkow bez odtwarzania oraz kontekstowe MP3, MP4 i audiodeskrypcja.",
-  "publishedAt": "2026-10-01T20:45:37.5534214Z"
+  "version": "1.4.8",
+  "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.8/atube-Setup.exe",
+  "sha256": "A42811C1920D411F65A1DA55646C266FCF0E07E949FA57A84864DA2F998F2BA0",
+  "notes": "Przywracanie fokusu do listy po zamknieciu ustawien otwartych z menu aplikacji.",
+  "publishedAt": "2026-10-08T00:55:06.1907507Z"
 }

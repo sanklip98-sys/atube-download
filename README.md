@@ -4,22 +4,24 @@ Public download repository for atube. Application source code and technical docu
 
 ## Download
 
-[Download atube 1.4.6 for Windows](https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.6/atube-Setup.exe)
+[Download atube 1.4.8 for Windows](https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.8/atube-Setup.exe)
 
 [Latest release](https://github.com/sanklip98-sys/atube-download/releases/latest)
 
 ## Current Version
 
-Version: 1.4.6
+Version: 1.4.8
 
-Installer: `atube-Setup.exe` (146374574 bytes)
+Installer: `atube-Setup.exe` (146374565 bytes)
 
 Installer SHA-256:
 
-`76E2030CF07AC288460DEB74B007B76841DE24A19BD96F6899D3FC87903AC6FD`
+`A42811C1920D411F65A1DA55646C266FCF0E07E949FA57A84864DA2F998F2BA0`
 
 ## Release Notes
 
+- Restores focus to the results list after closing Program settings opened from the application menu, including Cancel, Save, Escape and the window close button. The menu is dismissed after the modal WinForms loop settles.
+- Adds a real-menu regression check covering playback context, the settings dialog, menu dismissal and results-list focus.
 - Ctrl+U shares a video title and public link. WhatsApp and Telegram open their sharing flows; Messenger explicitly copies the message and opens the website so you can select a conversation and paste with Ctrl+V. Nothing is sent automatically.
 - The main Download video command has one accessible dialog: choose MP3/MP4 with arrows, Tab to audio description, then Tab to Download and confirm with Space or Enter.
 - Context menus offer separate Download MP3, Download MP4 and Download with audio description commands. Enter selects the mode directly without another format dialog. Existing save-location and AI-cost confirmations remain.
