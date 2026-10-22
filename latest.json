@@ -1,7 +1,7 @@
 {
-  "version": "1.4.8",
-  "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.8/atube-Setup.exe",
-  "sha256": "A42811C1920D411F65A1DA55646C266FCF0E07E949FA57A84864DA2F998F2BA0",
-  "notes": "Przywracanie fokusu do listy po zamknieciu ustawien otwartych z menu aplikacji.",
-  "publishedAt": "2026-10-08T00:55:06.1907507Z"
+  "version": "1.4.16",
+  "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.16/atube-Setup.exe",
+  "sha256": "8A2918E7EEED3982055A304562E4B7C1AACB1BB0EFE5217753651DFB57426C0D",
+  "notes": "Liczba zaladowanych filmow po mixie lub playliscie jest teraz slyszalna dla czytnika ekranu NVDA. Dokumentacja jest tez dostepna w formacie Word w katalogu Dokumentacja.",
+  "publishedAt": "2026-10-22T02:12:10.313036+00:00"
 }
