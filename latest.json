@@ -1,7 +1,7 @@
 {
   "version": "1.4.16",
   "installerUrl": "https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.16/atube-Setup.exe",
-  "sha256": "8A2918E7EEED3982055A304562E4B7C1AACB1BB0EFE5217753651DFB57426C0D",
+  "sha256": "EB0BC47829401CE23E56D9364D8CFC928B057CB7D6C7FEA55068A06DAA3559D5",
   "notes": "Liczba zaladowanych filmow po mixie lub playliscie jest teraz slyszalna dla czytnika ekranu NVDA. Dokumentacja jest tez dostepna w formacie Word w katalogu Dokumentacja.",
-  "publishedAt": "2026-10-22T02:12:10.313036+00:00"
+  "publishedAt": "2026-10-22T03:02:39.327526+00:00"
 }
