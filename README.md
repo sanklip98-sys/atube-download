@@ -5,17 +5,33 @@ obsługa klawiaturą i czytnikiem ekranu oraz opcjonalna audiodeskrypcja AI.
 
 ## Pobieranie
 
-[Pobierz instalator ATube 1.4.21 dla Windows](https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.21/atube-Setup.exe)
+[Pobierz instalator ATube 1.4.29 dla Windows](https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.29/atube-Setup.exe)
 
 [Najnowsze wydanie](https://github.com/sanklip98-sys/atube-download/releases/latest)
 
-Wersja: **1.4.21**. Instalator: `atube-Setup.exe`, 161065770 bajtów.
+Wersja: **1.4.29**. Instalator: `atube-Setup.exe`, 161166061 bajtów.
 
 SHA-256 instalatora:
 
-`9EBE658F388E2B66CB4B7D3B21243BCF0FE1CC101B79057BC0DAE1B7736C3E16`
+`EB156BE35A71363321021690446FDE7AA618A7D411372FDD51630DFD99B218B9`
 
-## Zmiany od publicznej wersji 1.4.16
+## Zmiany w 1.4.29
+
+- Dodano sterowanie jednym lub dwoma przełącznikami klawiaturowymi.
+  Zakładka `F4 → Przełączniki` udostępnia profile urządzeń, rozpoznawanie
+  klawiszy, regulowane skanowanie i panel obsługi programu. Funkcja jest
+  domyślnie wyłączona; `Ctrl+Shift+F12` otwiera panel.
+- Audiodeskrypcja może korzystać z własnego serwera zgodnego z OpenAI.
+  Obsługiwane są Chat Completions i Responses, osobny klucz chroniony DPAPI
+  oraz test połączenia i rozpoznawania obrazu. Model musi obsługiwać obrazy.
+- Dodano własne skróty klawiaturowe i opcjonalny układ jednej ręki,
+  numerowanie 89 opcji w 15 zakładkach, kontrast, powiększenie i dodatkowe
+  poprawki fokusu oraz komunikatów czytnika ekranu.
+- Instalator przeszedł czystą instalację przenośną i aktualizację z 1.4.28.
+  Testy fizycznych przełączników, rzeczywistego własnego serwera AI i odsłuch
+  tej wersji z NVDA pozostają do wykonania przez użytkownika.
+
+## Ważniejsze zmiany od publicznej wersji 1.4.16
 
 - Po zamknięciu menu podczas odtwarzania fokus wraca do wcześniej aktywnej
   listy lub odtwarzacza. Escape i Alt w menu nie zatrzymują filmu. Poprawka
