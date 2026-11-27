@@ -5,17 +5,37 @@ obsługa klawiaturą i czytnikiem ekranu oraz opcjonalna audiodeskrypcja AI.
 
 ## Pobieranie
 
-[Pobierz instalator ATube 1.4.29 dla Windows](https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.29/atube-Setup.exe)
+[Pobierz instalator ATube 1.4.31 dla Windows](https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.31/atube-Setup.exe)
 
 [Najnowsze wydanie](https://github.com/sanklip98-sys/atube-download/releases/latest)
 
-Wersja: **1.4.29**. Instalator: `atube-Setup.exe`, 161166061 bajtów.
+Wersja: **1.4.31**. Instalator: `atube-Setup.exe`, 161210877 bajtów.
 
 SHA-256 instalatora:
 
-`EB156BE35A71363321021690446FDE7AA618A7D411372FDD51630DFD99B218B9`
+`1DA737E5B59B28D116B57834E82515D2B49F7BEFE0C69168BA722DE3A74EA157`
 
-## Zmiany w 1.4.29
+## Zmiany w 1.4.31
+
+- W `F4 → Dźwięk` dodano opcjonalne **Wzmocnienie głośności do 400%**.
+  Jest domyślnie wyłączone, więc po aktualizacji zakres pozostaje 0–100%.
+  Po świadomym włączeniu działa ze strzałkami, menu, własnymi skrótami i
+  przełącznikami; powyżej 100% czytnik otrzymuje komunikat „Wzmocnienie
+  aktywne”. Wyłączenie opcji od razu ogranicza poziom do 100%.
+- Wzmocnienie działa tylko wewnątrz odtwarzania VLC w ATube. Nie zmienia
+  głośności systemu, miksera, urządzenia ani NVDA. Poziomy powyżej 100% mogą
+  być bardzo głośne, zniekształcić dźwięk oraz uszkodzić słuch lub sprzęt.
+  Zacznij od niskiego poziomu i zwiększaj go stopniowo.
+- Z wersji 1.4.30 uwzględniono poprawkę oznajmiania liczby zwykłych wyników
+  wyszukiwania przed autoodtwarzaniem. Zaktualizowano także przypięty
+  `yt-dlp` do 2026.11.23 oraz zależności budowania.
+- Gotowy instalator przeszedł 34/34 zwykłe zestawy testów, 10/10 po
+  obfuskacji i 11/11 na dokładnym EXE z instalatora. Sprawdzono czystą
+  instalację, aktualizację z 1.4.30, podpis manifestu i rzeczywiste pobranie
+  MP4 z obrazem i dźwiękiem. Nie wykonywano głośnego odsłuchu ani odsłuchu
+  tej wersji z NVDA.
+
+## Ważniejsze wcześniejsze zmiany
 
 - Dodano sterowanie jednym lub dwoma przełącznikami klawiaturowymi.
   Zakładka `F4 → Przełączniki` udostępnia profile urządzeń, rozpoznawanie
@@ -30,8 +50,6 @@ SHA-256 instalatora:
 - Instalator przeszedł czystą instalację przenośną i aktualizację z 1.4.28.
   Testy fizycznych przełączników, rzeczywistego własnego serwera AI i odsłuch
   tej wersji z NVDA pozostają do wykonania przez użytkownika.
-
-## Ważniejsze zmiany od publicznej wersji 1.4.16
 
 - Po zamknięciu menu podczas odtwarzania fokus wraca do wcześniej aktywnej
   listy lub odtwarzacza. Escape i Alt w menu nie zatrzymują filmu. Poprawka
