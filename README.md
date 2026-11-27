@@ -5,33 +5,33 @@ obsługa klawiaturą i czytnikiem ekranu oraz opcjonalna audiodeskrypcja AI.
 
 ## Pobieranie
 
-[Pobierz instalator ATube 1.4.31 dla Windows](https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.31/atube-Setup.exe)
+[Pobierz instalator ATube 1.4.33 dla Windows](https://github.com/sanklip98-sys/atube-download/releases/download/v1.4.33/atube-Setup.exe)
 
 [Najnowsze wydanie](https://github.com/sanklip98-sys/atube-download/releases/latest)
 
-Wersja: **1.4.31**. Instalator: `atube-Setup.exe`, 161210877 bajtów.
+Wersja: **1.4.33**. Instalator: `atube-Setup.exe`, 161218556 bajtów.
 
 SHA-256 instalatora:
 
-`1DA737E5B59B28D116B57834E82515D2B49F7BEFE0C69168BA722DE3A74EA157`
+`865584E5DBD80A08F828D248B2E980BB79FB47993202ADDE6C6571BFF2A7BC5A`
 
-## Zmiany w 1.4.31
+## Zmiany w 1.4.33
 
-- W `F4 → Dźwięk` dodano opcjonalne **Wzmocnienie głośności do 400%**.
-  Jest domyślnie wyłączone, więc po aktualizacji zakres pozostaje 0–100%.
-  Po świadomym włączeniu działa ze strzałkami, menu, własnymi skrótami i
-  przełącznikami; powyżej 100% czytnik otrzymuje komunikat „Wzmocnienie
-  aktywne”. Wyłączenie opcji od razu ogranicza poziom do 100%.
-- Wzmocnienie działa tylko wewnątrz odtwarzania VLC w ATube. Nie zmienia
-  głośności systemu, miksera, urządzenia ani NVDA. Poziomy powyżej 100% mogą
-  być bardzo głośne, zniekształcić dźwięk oraz uszkodzić słuch lub sprzęt.
-  Zacznij od niskiego poziomu i zwiększaj go stopniowo.
-- Z wersji 1.4.30 uwzględniono poprawkę oznajmiania liczby zwykłych wyników
-  wyszukiwania przed autoodtwarzaniem. Zaktualizowano także przypięty
-  `yt-dlp` do 2026.11.23 oraz zależności budowania.
+- W `F4 → Sterowanie → Krok przewijania` można wybrać każdą wielokrotność
+  5 sekund od **5 sekund** do dotychczasowej granicy **5 minut**. Lista ma
+  60 pozycji, a domyślne 10 sekund pozostaje bez zmian. Wybrana wartość działa
+  z `Ctrl + strzałka lewo/prawo`, własnymi skrótami i przełącznikami.
+- Uwzględniono poprawkę 1.4.32: nazwy dostępne przycisków Zapisz, Anuluj i
+  Szukaj nie zawierają już słowa „przycisk”. Czytnik może dzięki temu ogłosić
+  natywną rolę kontrolki raz, bez powtórzenia „przycisk”.
+- Pozostaje dostępne opcjonalne **Wzmocnienie głośności do 400%** z wersji
+  1.4.31. Jest domyślnie wyłączone i działa tylko wewnątrz odtwarzania VLC w
+  ATube. Nie zmienia głośności systemu, miksera, urządzenia ani NVDA. Poziomy
+  powyżej 100% mogą być bardzo głośne i uszkodzić słuch lub sprzęt; zwiększaj
+  je stopniowo.
 - Gotowy instalator przeszedł 34/34 zwykłe zestawy testów, 10/10 po
   obfuskacji i 11/11 na dokładnym EXE z instalatora. Sprawdzono czystą
-  instalację, aktualizację z 1.4.30, podpis manifestu i rzeczywiste pobranie
+  instalację, aktualizację z 1.4.32, podpis manifestu i rzeczywiste pobranie
   MP4 z obrazem i dźwiękiem. Nie wykonywano głośnego odsłuchu ani odsłuchu
   tej wersji z NVDA.
 
@@ -63,7 +63,7 @@ SHA-256 instalatora:
   Importowane cookies są przechowywane w zaszyfrowanej postaci dla bieżącego
   konta Windows. Oryginalny eksport wskazany przez użytkownika pozostaje na dysku.
 - Program sprawdza zatwierdzoną sumę yt-dlp przed uruchomieniem. Wersja
-  2026.10.26 jest dołączona do instalatora; kolejne wersje pomocnika będą
+  2026.11.23 jest dołączona do instalatora; kolejne wersje pomocnika będą
   dostarczane z aktualizacjami ATube.
 - Od wersji 1.4.21 aktualizator sprawdza podpis manifestu ATube oraz sumę
   instalatora. Przekierowania pobierania wymagają HTTPS.
